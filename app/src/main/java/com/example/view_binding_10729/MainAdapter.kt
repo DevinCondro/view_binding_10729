@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.view.inputmethod.InputBinding
 import androidx.recyclerview.widget.RecyclerView
+import com.example.view_binding_10729.databinding.RecyclerviewItemBinding
 
 class MainAdapter (val taskList: List<Task>):RecyclerView.Adapter<MainAdapter.MainViewHolder>(){
 
